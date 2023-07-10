@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 0 150px;
+    background-color: rgba(230, 179, 189, 0.199);
+}
+
+.text-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.banner-description {
+    width: 91%;
+    font-size: 16px;
+    margin: 32px 0px;
+    color: gray;
+
+}
+
+.banner-content {
+    padding-top: 80px;
+}
+
+.bimg {
+
+    width: 400px;
+
+}
+
+.banner-description {
+    width: 81%;
+    margin: 32px 0px;
+}
+
+.btn {
+    border-radius: 10px;
+    background: #E55473;
+    padding: 18px 35px;
+    border: 0;
+    color: white;
+
+}
+
+/* main */
+.Featured-title-h2 {
+    text-align: center;
+
+
+
+}
+
+.h2-title {
+    margin-top: 85px;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.featured-photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 170px;
+    width: 80%;
+}
+
+.fimg {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 490px;
+    width: 370px;
+
+}
+
+.mimg {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    height: 490px;
+    width: 370px;
+}
+
+.pimg {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 490px;
+    width: 370px;
+}
+
+.flower-descrition {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
