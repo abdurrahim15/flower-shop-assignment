@@ -55,33 +55,58 @@ body {
 }
 
 /* main */
-.flower-featured-section{
+.flower-featured-section {
     text-align: center;
     padding: 100px 0px;
 }
-.featured-container{
+
+.featured-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px 0px;
-   
+
 
 }
-.feture-photo{
+
+.feture-photo {
     border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-margin-right: 20px;
-padding: 80px 50px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 20px;
+    padding: 80px 50px 0px;
 
 
 }
-.photo{
-    width: auto;    
+
+.photo {
+    width: auto;
     height: 300px;
 }
-.flower-caption{
+
+.flower-caption {
     text-align: center;
     text-decoration: underline;
     margin-top: 20px;
 
+}
+
+.change-bgcolor1 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.change-bgcolor2 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+/* Shop Facility */
+.shop-facility-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    padding: 50px 0;
+    width: 80%;
+    margin: 0 auto;
 }
