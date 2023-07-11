@@ -140,7 +140,7 @@ body {
 }
 /* Subscribe form Section */
 .subscribe-section{
-    background-image: url("../images/Rectangle\ 9.png"),linear-gradient(rgba(232, 226, 226, 0.521), rgba(250, 222, 222, 0.508));
+    background-image: url("../images/Rectangle\ 9.png"),linear-gradient(rgba(82, 80, 80, 0.989), rgba(111, 108, 108, 0.508));
    /* background-position: center; */
    background-blend-mode: overlay;
    background-size: cover ;
@@ -151,3 +151,21 @@ body {
   margin: 80px auto;
   border-radius: 8px;
 
+}
+input[type=email] {
+    width: 60%;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  input[type=submit] {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 30px;
+    border: 0;
+    color: white;
+  }
