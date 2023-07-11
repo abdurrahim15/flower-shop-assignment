@@ -101,8 +101,11 @@ body {
 .pimg {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    height: 490px;
-    width: 370px;
+    
+}
+.photo{
+    height: 300px;
+    width: auto;
 }
 
 .flower-descrition {
@@ -112,4 +115,7 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+.main-photo{
+    margin-right: 10px;
 }
