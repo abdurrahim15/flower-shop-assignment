@@ -138,3 +138,16 @@ body {
     width: 270px;
     margin-right: 10px;
 }
+/* Subscribe form Section */
+.subscribe-section{
+    background-image: url("../images/Rectangle\ 9.png"),linear-gradient(rgba(232, 226, 226, 0.521), rgba(250, 222, 222, 0.508));
+   /* background-position: center; */
+   background-blend-mode: overlay;
+   background-size: cover ;
+   background-repeat: no-repeat;
+   padding: 120px 0;
+   text-align: center;
+   width: 80%;
+  margin: 80px auto;
+  border-radius: 8px;
+
