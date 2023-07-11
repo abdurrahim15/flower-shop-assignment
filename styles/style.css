@@ -10,12 +10,29 @@ body {
 .red-txt{
     color: #E55473;
 }
+.title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 60%;
+margin: 20px auto;
+}
+/* Banner Section */
 .banner-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    padding: 0 150px;
+    padding: 0px 150px;
     background-color: rgba(230, 179, 189, 0.199);
 }
 
@@ -82,20 +99,25 @@ body {
 }
 
 .photo {
-    width: auto;
-    height: 300px;
+    width: 270px;
+    height: 350px;
 }
 
 .flower-caption {
     text-align: center;
     text-decoration: underline;
     margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
 
 }
 
 .change-bgcolor1 {
     background-color: rgba(5, 151, 160, 0.15);
+
+  
 }
+
 
 .change-bgcolor2 {
     background-color: rgba(71, 125, 17, 0.15);
@@ -109,9 +131,12 @@ body {
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
     text-align: center;
-    padding: 50px 0;
+    padding: 80px 0;
     width: 80%;
     margin: 0 auto;
+}
+.facility-img{
+    margin-bottom: 20px;
 }
 
 /* Shop Offer */
@@ -119,10 +144,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0;
+    padding: 80px 150px 50px 50px;
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
-    margin: 100px 0;
+    margin: 50px 0;
 }
 .shop-offer-content{
     text-align: center;
@@ -131,35 +156,52 @@ body {
 
 .instagram-gallery-content{
     text-align: center;
-    padding: 100px 50px;
+    padding: 70px 50px;
 }
 
 .instagram-photo{
     text-align: center;
 }
 .insta-pic{
-    width: 270px;
+    width: 260px;
     margin-right: 10px;
 }
-/* Subscribe form Section */
+
+
+  /* About Flower Shop */
+  .about-flower-shop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px 120px 80px 0px;
+    background-color: #fff3f5dd;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .about-img{
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 4px 5px 6px #646363;
+  }
+  
+  /* Subscribe form Section */
 .subscribe-section{
     background-image: url("../images/Rectangle\ 9.png"),linear-gradient(rgba(82, 80, 80, 0.989), rgba(111, 108, 108, 0.508));
-   /* background-position: center; */
    background-blend-mode: overlay;
    background-size: cover ;
    background-repeat: no-repeat;
-   padding: 120px 0;
+   padding: 80px 0;
    text-align: center;
    width: 80%;
-  margin: 80px auto;
+  margin: 100px auto;
   border-radius: 8px;
-
 }
+
 input[type=email] {
     width: 60%;
     padding: 15px 20px;
     border-radius: 8px;
-    margin: 20px 0;
+    margin: 20px 5px;
     border: 0;
     background-color: #fff;
     box-sizing: border-box;
@@ -173,19 +215,6 @@ input[type=email] {
     color: white;
   }
 
-  /* About Flower Shop */
-  .about-flower-shop{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 80px 100px;
-    background-color: #fff3f5dd;
-  }
-  .about-img{
-    width: 90%;
-    border-radius: 8px;
-    box-shadow: 4px 5px 6px #646363;
-  }
   /* Footer Section */
   .footer-container{
     display: flex;
@@ -196,8 +225,13 @@ input[type=email] {
     color: #fff;
     padding: 100px 0;
   }
+  .footer-logo{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
   .copyright-txt{
     font-size: 12px;
     color: #cdcaca;
-    margin-top: 20px;
+    margin-top: 50px;
   }
