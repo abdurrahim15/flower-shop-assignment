@@ -110,3 +110,17 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+
+/* Shop Offer */
+.shop-offer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 100px 0;
+}
+.shop-offer-content{
+    text-align: center;
+}
