@@ -124,3 +124,17 @@ body {
 .shop-offer-content{
     text-align: center;
 }
+/* Instagram Gallery */
+
+.instagram-gallery-content{
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.instagram-photo{
+    text-align: center;
+}
+.insta-pic{
+    width: 270px;
+    margin-right: 10px;
+}
