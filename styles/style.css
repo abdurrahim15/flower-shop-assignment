@@ -7,6 +7,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.red-txt{
+    color: #E55473;
+}
 .banner-container {
     display: flex;
     justify-content: space-around;
@@ -182,4 +185,19 @@ input[type=email] {
     width: 90%;
     border-radius: 8px;
     box-shadow: 4px 5px 6px #646363;
+  }
+  /* Footer Section */
+  .footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #111010;
+    color: #fff;
+    padding: 100px 0;
+  }
+  .copyright-txt{
+    font-size: 12px;
+    color: #cdcaca;
+    margin-top: 20px;
   }
